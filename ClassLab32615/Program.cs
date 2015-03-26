@@ -17,7 +17,7 @@ namespace ClassLab32615
             
 
             var newStudent = new Student();
-            var myPoints = newStudent.intialPointValue + addedPoints;
+            
           
         }
     }
@@ -28,29 +28,24 @@ namespace ClassLab32615
         public int intialPointValue = 0;
         public string Subclass = "Beginner";
         public string Subclass2 = "Grasshopper";
+        int myPoints = intialPointValue + addedPoints;
         
         
-        
-        public static int PointAllocation()
+        public int PointAllocation()
     
         {
-        if (completedProgram);
-        {myPoints = initialPointValue + 1};
-        if (helpedStudent)
-        else bool completedProgram = false;
-        then myPoints = initialValue + 0);
-        if helpedStudent = true;
-        myPoints = initialValue + 2
-        if helpedStudents = false;
-        myPoints = initialValue + 0
-      bool[] completedProgram = { true, false };
+        if (completedProgram = true)
+        {
+            return int myPoints = (initialPointValue + 1)
+        };
+        if (helpedStudent = true)
+        {
+            return initialPointValue + 2};
+            
+        
       
 
-      foreach (var student in Student) 
-      {
-         int myPoints = (initialPointValue + 1);
-         Console.WriteLine("hasServiceCharge = {1}: The total is {0:C2}.", 
-                           total, hasServiceCharge); 
+      
 
     }
 
